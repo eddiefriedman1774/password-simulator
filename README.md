@@ -1,2 +1,3 @@
-# password-simulator
-Week 3 Challenge: Password Simulator
+# Password Generator Starter Code
+
+### description, screenshot, and link to deployed application.
