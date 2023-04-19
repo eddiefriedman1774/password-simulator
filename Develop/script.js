@@ -1,13 +1,7 @@
 // Assignment code here generate password
-
 function generatePassword() {
-  var length = 8,
-      charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
-      retVal = "";
-  for (var i = 0, n = charset.length; i < length; ++i) {
-      retVal += charset.charAt(Math.floor(Math.random() * n));
-  }
-  return retVal;
+  let popup = document.getElementById("popup");
+  popup.style.visibility = "visible";
 }
 
 // Get references to the #generate element
